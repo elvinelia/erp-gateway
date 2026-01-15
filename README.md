@@ -12,9 +12,21 @@ The application uses environment-based configuration.
 | ENVIRONMENT | Application environment (`development`, `staging`, `production`) |
 | APP_NAME | Application name |
 | APP_PORT | Port where the application runs |
-| DATABASE_URL | Database connection string |
+| DB_HOST | Database host |
+| DB_PORT | Database port |
+| DB_NAME | Database name |
+| DB_USER | Database user |
+| DB_PASSWORD | Database password |
 | JWT_SECRET | Secret key for JWT signing |
 | JWT_EXPIRES_IN | JWT expiration time (seconds) |
+
+### Optional Variables
+
+| Variable | Description |
+|--------|------------|
+| LOG_LEVEL | Logging level (default: info) |
+| EXTERNAL_API_URL | External service base URL |
+| EXTERNAL_API_KEY | External service API key |
 
 ### Environment Files
 
